@@ -23,7 +23,7 @@ public class ModList {
            
            
      final String appname = "ModList.jar";
-     final String name ="ModLister.txt";
+     final String name ="ModList.txt";
        try (BufferedWriter bow = new BufferedWriter(new FileWriter(name))) {
            File scan = new File(name);
            String path = (scan.getAbsolutePath().replace(name, ""));
