@@ -5,6 +5,7 @@
  */
 package ModList;
 
+import java.awt.Desktop;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -46,6 +47,7 @@ public class ModList {
            }
            String brojac = "Number of mods is: " + (counter);           
            bow.write(brojac);
+           Desktop.getDesktop().open(scan);
        }
    
    }
